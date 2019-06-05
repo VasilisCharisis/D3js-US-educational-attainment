@@ -18,7 +18,7 @@
   
 </head>
 <body>
-	<header class="row">
+	<header class="container">
 		<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
 			<a class="navbar-brand" href="index.html">Go Back</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,50 +37,48 @@
 		</nav>
     </header>
 	
-<div class="container-fluid"> <!-- Bootsrap div container start -->
-    
-		
-	    <h1 class="title">Educational Attainment in the United States</h1>
+	<div class="container-fluid"> <!-- Bootsrap div container start -->
+		<h1 class="title">Educational Attainment in the United States</h1>
 	         
-		<div id="chart1">
+		<div class="container" id="chart1">
 			<h2 class="subtitle">Nation-Wide Education Level of Population in Schooling</h2>	    
 	    </div>
 
-	<div id="chart2">
-	    <h2 class="subtitle">Educational Attainment: Region-level Breakdown of University Students</h2>
-		<form id="tree-form">
-	        <div class="radio-toolbar">
-	            <input type="radio" id="mode1" name="treeSum" value="number" checked>
-	            <label for="mode1">Pursuing a Masters degree (in # of students)</label>
-	            <input type="radio" id="mode2" name="treeSum" value="percent">
-	            <label for="mode2">Pursuing a Masters degree (in %)</label>
-	            <input type="radio" id="mode3" name="treeSum" value="male">
-	            <label for="mode3">Males in College (18-24yrs)(in %)</label>
-	            <input type="radio" id="mode4" name="treeSum" value="femal">
-	            <label for="mode4">Females in College (18-24yrs) (in %)</label>
-	        </div>
-	    </form> 		
-		<div id="chart" style="display: block"></div>
-		<a name="state"></a>
-	    </div>	    
- </div>  <!-- Bootsrap div container end -->  
+		<div class="container" id="chart2">
+			<h2 class="subtitle">Educational Attainment: Region-level Breakdown of University Students</h2>
+			<form id="tree-form">
+				<div class="radio-toolbar">
+					<input type="radio" id="mode1" name="treeSum" value="number" checked>
+					<label for="mode1">Pursuing a Masters degree (in # of students)</label>
+					<input type="radio" id="mode2" name="treeSum" value="percent">
+					<label for="mode2">Pursuing a Masters degree (in %)</label>
+					<input type="radio" id="mode3" name="treeSum" value="male">
+					<label for="mode3">Males in College (18-24yrs)(in %)</label>
+					<input type="radio" id="mode4" name="treeSum" value="femal">
+					<label for="mode4">Females in College (18-24yrs) (in %)</label>
+				</div>
+			</form> 		
+			<div id="chart"></div>
+			<a name="state"></a>
+		</div>	    
+	</div>  <!-- Bootsrap div container end -->  
  
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<!-- Color palettes -->
-<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<!-- Bootsrap JS inclusion-->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+		<script src="https://d3js.org/d3.v4.min.js"></script>
+		<!-- Color palettes -->
+		<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+		<!-- Bootsrap JS inclusion-->
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-<!--<script src="assets/scripts/script_1b.js"></script>-->
-<script src="assets/scripts/script_2b.js"></script>
-<script src="assets/scripts/custom.js"></script>
+		<script src="assets/scripts/script_1b.js"></script>
+		<script src="assets/scripts/script_2b.js"></script>
+		<script src="assets/scripts/custom.js"></script>
 
-<!-- Make an invisible audio tag (without controls, no autoplay) and preload it -->
-<audio preload="auto">
-  <source src="assets/sounds/Coin.mp3" type="audio/mpeg">
-  <source src="assets/sounds/Coin.ogg" type="audio/ogg">
-  Your browser does not support this audio format.
-</audio>
-</body>
+		<!-- Make an invisible audio tag (without controls, no autoplay) and preload it -->
+		<audio preload="auto">
+		  <source src="assets/sounds/Coin.mp3" type="audio/mpeg">
+		  <source src="assets/sounds/Coin.ogg" type="audio/ogg">
+		  Your browser does not support this audio format.
+		</audio>
+	</body>
 </html>
