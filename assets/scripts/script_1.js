@@ -33,7 +33,7 @@ function donutChart() {
             // generate chart
 
             // ===========================================================================================
-            // Set up constructors for making donut. See https://github.com/d3/d3-shape/blob/master/README.md
+            // Set up constructors for making donut. 
             var radius = Math.min(width, height) / 2;
 
             // creates a new pie generator
