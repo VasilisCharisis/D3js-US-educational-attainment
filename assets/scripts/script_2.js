@@ -274,5 +274,5 @@ d3.json("assets/data/us.json", function(data) {
             .join(sep);
     }
     
-    $("#chart2, #chart3").hide();
+   $("#chart2, #chart3").hide();
 });
