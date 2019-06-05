@@ -4,11 +4,11 @@ ___
 ### ΑΜ Π2013013 ΒΑΣΙΛΗΣ ΧΑΡΙΣΗΣ
 #### Μάθημα: Επικοινωνία Ανθρώπου Υπολογιστή 
 ##### Αποθετήριο κώδικα παραδοτέου: [αποθετήριο](https://github.com/VasilisCharisis/D3js-US-educational-attainment/tree/master)
-##### Σύνδεσμος εκτελέσιμου αρχείου: [εκτέλεση]("εκτέλεση")
+##### Σύνδεσμος εκτελέσιμου αρχείου: [εκτέλεση](https://vasilischarisis.github.io/D3js-US-educational-attainment/)
 
 ### ΠΑΡΑΔΟΤΕΟ 1
 ##### Αποθετήριο κώδικα παραδοτέου: [αποθετήριο](https://github.com/VasilisCharisis/D3js-US-educational-attainment/tree/master)
-##### Σύνδεσμος εκτελέσιμου αρχείου: [εκτέλεση]("εκτέλεση")
+##### Σύνδεσμος εκτελέσιμου αρχείου: [εκτέλεση](https://vasilischarisis.github.io/D3js-US-educational-attainment/)
 
 #### ΖΗΤΟΥΜΕΝΑ
 * [X] Αλλαγή στα χρώματα των 3 γραφηάτων
@@ -22,7 +22,7 @@ ___
  
  ### ΠΑΡΑΔΟΤΕΟ 2
  ##### Αποθετήριο κώδικα παραδοτέου: [αποθετήριο](https://github.com/VasilisCharisis/D3js-US-educational-attainment/tree/master)
- ##### Σύνδεσμος εκτελέσιμου αρχείου: [εκτέλεση]("εκτέλεση")
+ ##### Σύνδεσμος εκτελέσιμου αρχείου: [εκτέλεση](https://vasilischarisis.github.io/D3js-US-educational-attainment/)
  
  #### ΖΗΤΟΥΜΕΝΑ
  * [X] Τροποποίηση των 3 γραφημάτων και παραμονή στην ίδια την index.html
