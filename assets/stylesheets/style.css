@@ -25,7 +25,7 @@
 }
 
 
-header {
+/*header {
   height:36px;
   z-index:10;
 }
@@ -68,7 +68,7 @@ nav ul li {
 nav ul li a {
   text-decoration: none; 
   color: #a9abae;
-}
+}*/
 
 body {
     font-size: 14px;
@@ -89,6 +89,7 @@ label{
     
 }
 
+/* Original buttons style
 .radio-toolbar label {
 
   display: inline-block;
@@ -101,9 +102,27 @@ label{
 
 .radio-toolbar input[type="radio"]:checked+label {
   background-color: #bbb;
+}*/
+
+/* Task 1.2 new buttons style */
+.radio-toolbar label {
+
+  display: inline-block;
+  background-color: #ADD8E6;
+  padding: 10px 14px;
+  font-family: "Muli";
+  font-size: 15px;
+  cursor: pointer
 }
 
+.radio-toolbar input[type="radio"]:checked+label {
+  background-color: #1E90FF;
+  color: #fff
+}
 
+.radio-toolbar label:hover {
+  background-color: #90EE90
+}
 
 a, a:visited, a:hover {
 	text-decoration: none;
@@ -337,3 +356,6 @@ form {
 	    font-size:8px !important;
         color: #0FA3B1;
     }
+
+#chart2, #chart3, #chart2b, #chart3b {display:none}
+
