@@ -40,7 +40,7 @@ ___
 
 Links που συμβουλεύτηκα
 jQuery: *[jQuery](https://jquery.com/)*
-w3school: *[w3schools]("https://www.w3schools.com/)*
+w3school: *[w3schools](https://www.w3schools.com/)*
 
 
 
