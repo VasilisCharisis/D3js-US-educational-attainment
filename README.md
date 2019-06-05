@@ -43,6 +43,8 @@ Links που συμβουλεύτηκα
  *[w3schools](https://www.w3schools.com/)*
  *[stackoverflow](https://stackoverflow.com/)*
  *[D3.JS](https://d3js.org/)*
+ <br>
+ Χρησιμοποίησα για τον κώδικα της εφαρμογής **sublime text 3
 
 
 
